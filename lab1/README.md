@@ -67,7 +67,19 @@ $$
 
 ## Как запустить
 
-1. Скомпилировать: `g++ -O2 -o matrix_mult main.cpp`
-2. Запустить для конкретного N: `./matrix_mult 1000`
-3. Проверить результат: `python3 verify.py`
-4. Для серии тестов: `run run.bat`
+1. Скомпилировать:  
+```bash
+g++ -O2 -o matrix_mult main.cpp
+```  
+2. Запустить для конкретного N:  
+```bash
+./matrix_mult 1000
+```  
+3. Проверить результат:  
+```bash
+python3 verify.py 
+```  
+4. Для серии тестов:  
+```bash
+run run.bat
+```
